@@ -76,4 +76,3 @@ if __name__=="__main__":
 	revid=sys.argv[1]
 	topurl="http://192.168.2.236:9876/job/"+project+'/'
 	main()
-	
