@@ -1,0 +1,2 @@
+csvhandler.py：对文件LOG_DETAIL_20151209112109.csv进行分析，提取里面有效的域名邮箱，然后将其插入redis数据库中
+findPath.py：使用BeautifulSoap对jenkins服务器的WEB界面进行提取，将指定SVNID的提交代码提取出来，然后对格式进行修改，使其满足tomcat服务器的目录要求
