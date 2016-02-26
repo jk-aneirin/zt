@@ -53,7 +53,7 @@ def Getlastrealm(mailbox):
 
 def Insertredis(realm):
 ## Shell redis-cli -h 192.168.2.182 -p 6379  -a passwd -x zadd filter:not_by_hanqi:mail:suffix:list 0
-	r=redis.StrictRedis(host='192.168.2.182',password='job5156RedisMaster182')
+	r=redis.StrictRedis(host='192.168.2.182',password='password')
 	r.zadd('filter:not_by_hanqi:mail:suffix:list',0,realm)
 	#r=redis.StrictRedis(host='192.168.70.160',port=6379)
 	#r.zadd('list',0,realm)
