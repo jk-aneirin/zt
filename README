@@ -3,3 +3,4 @@ findPath.py：使用BeautifulSoap对jenkins服务器的WEB界面进行提取，�
 postfix_status.sh:该脚本用在zabbix的postfix监控中，如果脚本执行返回1则说明postfix进程停止了，如果返回0则说明程序正常运行
 filecp.sh:向目标服务器上传文件，服务器间需做RSA认证
 dirbackup.py:实现目录的备份，将备份源备份到以日期为目录，当前时间为文件名的tar包文件。
+ftpupload.sh:备份压缩目录，并将备份的压缩文件拷贝到指定的ftp服务器上，文件名加当天的日期
